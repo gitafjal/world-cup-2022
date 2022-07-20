@@ -49,6 +49,8 @@ img {
     height: 500px;
     width: 1200px;
     border: 1px solid black;
+    border-radius: 20px;
+
     margin-top: 5em;
     margin-left: 2em;
     background-color: black;
@@ -74,9 +76,11 @@ img {
 }
 
 .part-2right {
+
     border: 1px solid red;
     margin-right: 5px;
-    margin-top: 5em;
+    gap: 25px;
+    margin-top: 10px;
     margin-bottom: 5px;
     margin-left: 5px;
     border-radius: 10px;
@@ -84,15 +88,27 @@ img {
 
 }
 
+
+.flag-col2 {
+    display: flex;
+    text-align: center;
+
+
+}
+
 .part-2rttop {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin-left: 50px;
+
 
 }
 
 .part-2right img {
-    height: 95px;
-    width: 150px;
+
+    width: 20%px;
+    height: 10%;
+
 
 }
 
