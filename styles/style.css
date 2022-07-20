@@ -58,6 +58,10 @@ img {
 
 /*----------- part-2 area---------
 ---------------------------------- */
+.part-2 {
+    display: flex;
+}
+
 .part-2left {
     height: 200px;
     width: 300px;
@@ -68,6 +72,31 @@ img {
     border-radius: 10px;
     margin-left: 2em;
 }
+
+.part-2right {
+    border: 1px solid red;
+    margin-right: 5px;
+    margin-top: 5em;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.part-2rttop {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.part-2right img {
+    height: 95px;
+    width: 150px;
+
+}
+
+
 
 .box-1 {
     color: aliceblue;
@@ -91,43 +120,55 @@ img {
     margin-right: 2em;
 }
 
+
+
+/* -----------------Footer area ------------
+----------------------------------------- */
+
 footer {
     height: 400px;
     width: 1200px;
     text-align: center;
     background-color: rgb(2, 2, 2);
     margin-left: 5em;
+    margin-top: 5em;
+    display: grid;
+    flex-direction: row-reverse;
 }
 
 .home1>ul>li>a {
-    display: flex;
     font-size: 20px;
     text-align: center;
     color: aliceblue;
     text-decoration: none;
-
 }
 
+.home1>ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+
 .fa-facebook-f {
-    font-size: 40px;
+    font-size: 30px;
     text-decoration: none;
     padding-right: 20px;
 }
 
 .fa-linkedin-in {
-    font-size: 40px;
+    font-size: 30px;
     text-decoration: none;
     padding-right: 20px;
 }
 
 .fa-twitter {
-    font-size: 40px;
+    font-size: 30px;
     text-decoration: none;
     padding-right: 20px;
 }
 
 .fa-skype {
-    font-size: 40px;
+    font-size: 30px;
     text-decoration: none;
     padding-right: 20px;
 }
