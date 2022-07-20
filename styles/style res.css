@@ -25,10 +25,10 @@ h1 {
 }
 
 button {
-    color: rgb(248, 243, 242);
+    color: rgb(194, 77, 54);
     font-size: 25px;
     position: center;
-    background-color: #DD0000;
+    background-color: #f08787;
     border-radius: 5px;
 
 }
@@ -61,12 +61,12 @@ img {
 /*----------- part-2 area---------
 ---------------------------------- */
 .part-2 {
-    display: none;
+    display: flex;
 }
 
 .part-2left {
     height: 200px;
-    width: 300px;
+    width: 400px;
     border: 1px solid black;
     margin-top: 5em;
     color: rgb(17, 119, 207);
@@ -76,10 +76,14 @@ img {
 }
 
 .part-2right {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 
+
+}
+
+.part-right {
     border: 1px solid red;
-    margin-right: 5px;
-    gap: 25px;
     margin-top: 10px;
     margin-bottom: 5px;
     margin-left: 5px;
@@ -96,28 +100,24 @@ img {
 
 }
 
-.part-2rttop {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin-left: 50px;
 
+.part-right img {
+    height: 5%;
 
 }
 
+
 .part-2right img {
-
-    width: 20%px;
-    height: 10%;
-
+    height: 5%;
 
 }
 
 
 
 .box-1 {
-    color: aliceblue;
-    background-color: rgb(243, 21, 21);
-    border: 1px solid rgb(243, 21, 21);
+    color: rgb(9, 43, 73);
+    background-color: white;
+
     border-radius: 5px;
     text-align: center;
     padding: 10px 10px;
@@ -126,6 +126,17 @@ img {
 }
 
 .box-2 {
+    color: rgb(9, 43, 73);
+    background-color: white;
+
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 10px;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.box-3 {
     color: rgb(0, 3, 5);
     background-color: rgb(248, 243, 243);
     border: 1px solid rgb(247, 243, 243);
@@ -151,6 +162,7 @@ footer {
     display: grid;
     flex-direction: row-reverse;
 }
+
 
 .home1>ul>li>a {
     font-size: 20px;
